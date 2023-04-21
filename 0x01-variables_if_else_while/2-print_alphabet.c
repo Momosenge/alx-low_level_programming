@@ -8,7 +8,7 @@ int main(void)
 {
 	char momo;
 
-	for (momo = "a"; momo <= "2"; momo++)
+	for (momo = 'a'; momo <= 'z'; momo++)
 		putchar(momo);
 
 	putchar('\n');
