@@ -9,19 +9,18 @@ void puts_half(char *str)
 {
 	int len = 0;
 
-	while (*(str + len) != '\0')
+	while (str[len] != '\0')
 	{
 		len++;
 	}
-	int start = (len - 1) / 2;
+	int mid = len / 2;
 
 	if (len % 2 == 0)
 	{
-		start++;
+		printf("%.*s\n", mid, str + mid);
 	}
-	for (int i = start; i < len; i++)
+	else
 	{
-		printf("%c", *(str + i));
+		printf("%.*s\n", mid + 1, str + mid + 1);
 	}
-	printf("\n");
 }
