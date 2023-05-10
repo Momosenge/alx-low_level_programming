@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _puts_reursion - This function prints a string followd by a new line.
+ * _puts_reursion - It prints a string followd by a new line.
  * @s: thats the string to print.
  *
  * Return: Always 0.
